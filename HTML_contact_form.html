@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="contact_form_css.css">
+</head>
+
+<body>
+    <form>
+        <div class="main_container">
+            <div class="form_head">
+                <div class="text">
+                    Contact Form
+                    <p>Please fill all the text in the fields</p>
+                </div>
+
+            </div>
+            <div class="main_boddy"><br><br>
+                Your Name:<br>
+                <input type="text" placeholder="Your full name " id="Name" minlength="3" maxlength="50"><br><br>
+                Your Email:<br>
+                <input type="email" placeholder="Valid Email address" id="Email" minlength="3" maxlength="30"><br><br>
+                Subject:
+                <input type="text" id="Subject" placeholder="Enter Subject" minlength="3" maxlength="50"><br><br>
+                Messege:
+                <textarea id="txtarea" cols="60" rows="5" minlength="3" maxlength="100">
+                    Your messege to us
+                </textarea>
+                
+                <br><br><br>
+                <button type="submit" id="save">Save</button>
+            </div>
+        </div>
+    </form>
+    <script src="script_contact_form.js"> </script>
+</body>
+
+</html>
